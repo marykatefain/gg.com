@@ -9,7 +9,9 @@
 
   <div class="ui container">
     <h2 class="ui center aligned header">{{ self.headline }}</h2>
-    <div class="centered sub header">{{ self.subtitle }}</div>
+    {% if self.subtitle %}
+      <div class="centered sub header">{{ self.subtitle }}</div>
+    {% endif %}
     <div class="ui link stackable centered cards">
         {% include_block page.portfolio_cards %}
     </div>
