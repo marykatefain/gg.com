@@ -64,10 +64,14 @@ a .banner h1.header:hover{
   }
 }
 
-.ui.grey.item.stackable.menu {
+.ui.item.stackable.menu {
   margin: 0px 0px 80px;
   font-family: 'Scope One', serif;
   font-size: 18px;
+}
+
+.ui.item.stackable.menu .item:hover {
+  background-color: #f8f7fe;
 }
 
 .container {
@@ -255,6 +259,14 @@ element.style {
   font-size: 14px;
 }
 
+.template-resumepage .ui.resume.container a{
+  color: #7A5BA9;
+}
+
+.template-resumepage .ui.resume.container a:hover{
+  color: #af9ccb;
+}
+
 @media(max-width:900px) {
   .template-resumepage .ui.resume.container {
     flex-direction: column;
@@ -287,6 +299,7 @@ element.style {
 
 .resume .sidebar {
  max-width: 300px;
+ margin-left: 40px;
 }
 
 @media(max-width:900px) {
@@ -387,5 +400,9 @@ element.style {
 }
 
 .footer a {
-  color: #7A5BA9;
+  color: #E8E6FC;
+}
+
+.footer p a {
+  color: #E8E6FC;
 }

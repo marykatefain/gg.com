@@ -68,7 +68,7 @@
           </div>
         </a>
 
-        <div class="ui grey three item stackable menu">
+        <div class="ui three item stackable menu">
           {% for item in request.site.root_page.get_children.live.in_menu %}
           <a class="item" href="{{ item.url }}">
             {{ item }}
