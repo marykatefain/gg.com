@@ -32,7 +32,6 @@ class PortfolioCard(blocks.StructBlock):
     headline = blocks.CharBlock(required=True)
     subtitle = blocks.CharBlock(required=False)
     body = blocks.RichTextBlock(required=False)
-    technologies = blocks.CharBlock(required=False)
 
     class Meta:
         template = 'website/blocks/portfolio_card.html'
