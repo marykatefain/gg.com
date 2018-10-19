@@ -23,7 +23,7 @@ body {
 }
 
 a .banner h1.header{
-  color: #9c8cb2;
+  color: #8c2b99ff;
   font-family: 'Muli', sans-serif;
 }
 
@@ -223,7 +223,7 @@ element.style {
 }
 
 .image-info.ui.segment .about a {
-  color: #9c8cb2;
+  color: #8c2b99ff;
 }
 
 .image-info.ui.segment .about a:hover {
@@ -367,7 +367,7 @@ element.style {
 }
 
 .blog .post-index .preview.content a {
-  color: #9c8cb2;
+  color: #8c2b99ff;
 }
 
 .blog .post-index .preview.content a:hover {
@@ -383,6 +383,10 @@ element.style {
   font-family: 'Scope One', serif;
 }
 
+.ui.inverted.footer.segment {
+  background-color: #8c2b99ff;
+}
+
 .footer a {
-  color: #9c8cb2;
+  color: #8c2b99ff;
 }
