@@ -22,7 +22,9 @@ class PortfolioPage(Page):
     body = StreamField(
         [
             ('image_info_section', ImageInfoSection())
-        ]
+        ],
+        blank=True,
+        null=True
     )
 
     content_panels = Page.content_panels + [
