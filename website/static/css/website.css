@@ -13,7 +13,7 @@ body {
 }
 
 .banner {
-  background-image: url(../images/succulents.jpg);
+  background-image: url(../images/purple-blur.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,12 +23,12 @@ body {
 }
 
 a .banner h1.header{
-  color: #8c2b99ff;
+  color: white;
   font-family: 'Muli', sans-serif;
 }
 
 a .banner h1.header:hover{
-  color: #a9a9a9;
+  color: #E8E6FC;
   transition: .3s;
 }
 
@@ -139,7 +139,6 @@ a .banner h1.header:hover{
 }
 
 .block-portfolio_cards .card .description {
-  margin-bottom: 30px;
   padding: 10px 0;
   font-family: 'Scope One', serif;
 }
@@ -223,7 +222,7 @@ element.style {
 }
 
 .image-info.ui.segment .about a {
-  color: #8c2b99ff;
+  color: #7A5BA9;
 }
 
 .image-info.ui.segment .about a:hover {
@@ -367,7 +366,7 @@ element.style {
 }
 
 .blog .post-index .preview.content a {
-  color: #8c2b99ff;
+  color: #7A5BA9;
 }
 
 .blog .post-index .preview.content a:hover {
@@ -384,9 +383,9 @@ element.style {
 }
 
 .ui.inverted.footer.segment {
-  background-color: #8c2b99ff;
+  background-color: #7A5BA9;
 }
 
 .footer a {
-  color: #8c2b99ff;
+  color: #7A5BA9;
 }
