@@ -166,7 +166,7 @@ WAGTAIL_SITE_NAME = "website"
 
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
-BASE_URL = 'http://marykatefain.com'
+BASE_URL = 'http://gabrielgrove.com'
 
 if 'ANALYTICS_ENABLED' in env:
     ANALYTICS_ENABLED = env['ANALYTICS_ENABLED'].lower() in ['1', 'true']

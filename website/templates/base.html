@@ -16,18 +16,18 @@
                 {% endwith %}
             {% endblock %}
         </title>
-        <meta name="description" content="M. K. Fain is a web developer, activist, and feminist writer in Philadelphia." />
+        <meta name="description" content="." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="Mary Kate Fain">
+        <meta property="og:title" content="Gabriel Grove">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://marykatefain.com">
+        <meta property="og:url" content="https://gabrielgrove.com">
         <meta property="og:image" content="/static/images/icon.png">
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="300">
         <meta property="og:image:height" content="300">
-        <meta property="og:image:alt" content="M. K. Fain logo">
-        <meta property="og:description" content="M. K. is a web developer, activist, and feminist writer in Philadelphia">
+        <meta property="og:image:alt" content="">
+        <meta property="og:description" content="">
 
         {# Global stylesheets #}
         <link rel="stylesheet" type="text/css" href="{% static 'css/website.css' %}">
@@ -36,23 +36,6 @@
         <link href="https://fonts.googleapis.com/css?family=Karla|Scope+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Muli:300" rel="stylesheet">
 
-        <link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/static/favicons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/static/favicons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/static/favicons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/static/favicons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/static/favicons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/static/favicons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/static/favicons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/static/favicons/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
-        <link rel="manifest" href="/static/favicons/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/static/favicons/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
 
         {% block extra_css %}
             {# Override this in templates to add extra stylesheets #}
@@ -64,7 +47,7 @@
 
         <a href="/">
           <div class="banner">
-            <h1 class="header">M. K. Fain</h1>
+            <h1 class="header">Gabriel Groven</h1>
           </div>
         </a>
 
@@ -97,16 +80,15 @@
               <div class="five wide column">
                 <h4 class="ui inverted header">Stalker Links</h4>
                 <div class="ui inverted link list">
-                  <a href="https://github.com/marykatefain" class="item">GitHub</a>
-                  <a href="https://gitlab.com/marykatefain" class="item">GitLab</a>
-                  <a href="https://www.linkedin.com/in/marykatefain/" class="item">LinkedIn</a>
+                  <a href="" class="item">GitHub</a>
+                  <a href="" class="item">GitLab</a>
+                  <a href="" class="item">LinkedIn</a>
                 </div>
               </div>
               <div class="five wide column">
                 <h4 class="ui inverted header">Contact</h4>
                 <div class="ui inverted link list">
-                  <a href="mailto:mk@marykatefain.com" class="item">Email: mk@marykatefain.com</a>
-                  <a href="https://riot.im/app/#/room/!dnAsfIIjrbXrcOXIpW:matrix.org" class="item">IRC: @marykatefain:matrix.org</a>
+                  <a href="" class="item">Email: m</a>
                 </div>
               </div>
             </div>
@@ -123,13 +105,13 @@
         {% get_setting "ANALYTICS_ENABLED" as analytics_enabled %}
         {% if not request.is_preview and analytics_enabled %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62506265-1"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'UA-62506265-1');
+          gtag('config', '');
         </script>
         {% endif %}
 
