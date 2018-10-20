@@ -386,6 +386,58 @@ element.style {
   color: #a9a9a9;
 }
 
+/* CONTACT */
+
+.contact-block {
+  margin-bottom: 30px;
+}
+
+.contact-block h3 {
+  margin: 5px;
+}
+
+.contact-block p {
+  margin: 5px;
+  font-size: 1rem;
+  max-width: inherit;
+}
+form.contact {
+  margin: 50px auto;
+}
+
+form.contact label, input {
+  display: block;
+}
+
+form.contact input, textarea {
+  margin-bottom: 20px;
+  width: 400px;
+  min-height: 40px;
+}
+
+@media (max-width: 750px) {
+  form.contact input, textarea {
+    width: 300px;
+  }
+}
+
+form.contact input.submit {
+    background-color: #7A5BA9;
+    height: 40px;
+    padding-top: 5px;
+    border-radius: 3px;
+    color: #FEFDFB;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+form.contact input.submit:hover {
+    background-color: #af9ccb;
+}
+
+
 
 /* FOOTER */
 
