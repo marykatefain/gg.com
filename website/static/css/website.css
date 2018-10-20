@@ -27,7 +27,7 @@ a .banner h1.header{
   font-family: 'Muli', sans-serif;
 }
 
-a .banner h1.header:hover{
+a .banner:hover h1.header{
   color: #E8E6FC;
   transition: .3s;
 }
@@ -45,22 +45,41 @@ a .banner h1.header:hover{
   font-size: 3vw;
 }
 
+a .banner .tagline{
+  color: white;
+  font-family: 'Muli', sans-serif;
+  position: absolute;
+  top: 50px;
+  padding: 40px 40px;
+  font-style: italic;
+  font-size: 1.5vw;
+}
+
 @media(max-width:1100px){
   .banner h1.header {
-    font-size: 3vw;
+    font-size: 4vw;
+  }
+  a .banner .tagline{
+    font-size: 2vw;
   }
 }
 
 @media(max-width:900px){
   .banner h1.header {
+    font-size: 5vw;
+  }
+  a .banner .tagline{
     font-size: 3vw;
   }
 }
 
 @media(max-width:700px){
   .banner h1.header {
-    padding: 10px 10px;
-    font-size: 8vw;
+    font-size: 10vw;
+  }
+  a .banner .tagline{
+    font-size: 3vw;
+    margin: 30px auto;
   }
 }
 
@@ -193,6 +212,10 @@ element.style {
   justify-content: space-around;
   border: none;
   box-shadow: none;
+}
+
+.template-homepage .image-info.ui.segment{
+  ,margin: 50px auto;
 }
 
 .image-info .profile-img {

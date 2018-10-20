@@ -16,7 +16,9 @@ class HomePage(Page):
     portal_cards = StreamField(
         [
             ('portal_card', PortalCard())
-        ]
+        ],
+        null=True,
+        blank=True
     )
     body = StreamField(
         [
