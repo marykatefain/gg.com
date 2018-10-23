@@ -2,6 +2,7 @@
 {% load website_tags %}
 {% load wagtailimages_tags %}
 {% load wagtailcore_tags %}
+{% load wagtailsettings_tags %}
 
 <!DOCTYPE html>
 <html class="no-js">
@@ -92,7 +93,8 @@
         <a href="/">
           <div class="banner">
             <h1 class="header">Gabriel Grove</h1>
-            <p class="tagline">Everyone deserves a livable wage especially the working poor; otherwise we will continue to perpetrate poverty in America!</p>
+              {% get_settings %}
+              <p class="tagline">{{ settings.core.SiteSettings.tagline }}</p>
           </div>
         </a>
 

@@ -37,9 +37,11 @@ INSTALLED_APPS = [
     'website.writing',
     'website.blog',
     'website.contact',
+    'website.core',
 
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
+    'wagtail.contrib.settings',
     'wagtail.embeds',
     'wagtail.sites',
     'wagtail.users',
