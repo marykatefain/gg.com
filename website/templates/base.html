@@ -24,7 +24,7 @@
       {% if self.search_desciption %}
         <meta name="description" content="{{ self.search_desciption }}"/>
       {% else %}
-        <meta name="description" content="M. K. Fain is a web developer, activist, and feminist writer in Philadelphia." />
+        <meta name="description" content="Gabriel Grove" />
       {% endif %}
 
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -34,15 +34,15 @@
       {% endwith %}
 
       <meta property="og:type" content="website">
-      <meta property="og:url" content="https://marykatefain.com">
+      <meta property="og:url" content="https://gabrielgrove.com">
 
       {% if self.listing_image %}
         {% image self.listing_image fill-600x400 as image %}
         <meta property="og:image" content="{{ image.url }}">
         <meta property="og:image:alt" content="{{ image.alt }}">
       {% else %}
-        <meta property="og:image" content="/static/images/icon.png">
-        <meta property="og:image:alt" content="Mary Kate Fain">
+        <meta property="og:image" content="/static/images/purple-blur.png">
+        <meta property="og:image:alt" content="Gabriel Grove">
       {% endif %}
 
       <meta property="og:image:type" content="image">
@@ -52,7 +52,7 @@
       {% if self.search_desciption %}
         <meta property="og:description" content="{{ self.search_desciption }}"/>
       {% else %}
-        <meta property="og:description" content="M. K. is a web developer, activist, and feminist writer in Philadelphia">
+        <meta property="og:description" content="Everyone deserves a livable wage especially the working poor; otherwise we will continue to perpetrate poverty in America">
       {% endif %}
 
         <link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-icon-57x57.png">
